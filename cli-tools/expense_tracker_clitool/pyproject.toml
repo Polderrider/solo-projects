@@ -1,0 +1,14 @@
+[project]
+name = "expense-tracker"
+version = "0.1.0"
+dependencies = [
+    "requests",
+]
+
+[project.scripts]
+expense-tracker = "expense_tracker.expense_tracker:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
